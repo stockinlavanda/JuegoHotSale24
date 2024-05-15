@@ -1,4 +1,4 @@
 function revealProduct(cardNumber) {
-    var card = document.querySelector(".card[data-card='" + cardNumber + "']");
-    card.classList.add("flipped");
+    alert("¡Felicidades! Has ganado el Producto " + cardNumber);
+    document.querySelector(".card:nth-child(" + cardNumber + ")").classList.toggle("flipped");
 }
