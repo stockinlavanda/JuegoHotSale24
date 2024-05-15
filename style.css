@@ -38,6 +38,7 @@ body {
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
+    color: black;
 }
 
 .card-front {
